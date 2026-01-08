@@ -1,0 +1,10 @@
+id: localization_exists_esmx
+description: Localization field must exist for es-MX
+target:
+  title_id: t_palm_springs
+assert:
+  type: field_exists
+  field: localizations.es-MX.title
+severity: low
+schedule:
+  every_seconds: 60

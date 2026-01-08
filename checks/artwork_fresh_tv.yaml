@@ -1,0 +1,11 @@
+id: artwork_fresh_tv
+description: Artwork must be fresh for tv_4k device (<= 24h old)
+target:
+  title_id: t_palm_springs
+  device: tv_4k
+assert:
+  type: asset_freshness_hours
+  max_age_hours: 24
+severity: medium
+schedule:
+  every_seconds: 45

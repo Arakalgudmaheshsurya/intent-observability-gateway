@@ -1,0 +1,12 @@
+id: trending_discoverable_us_en
+description: Title should appear in Trending for US/en-US
+target:
+  surface: trending
+  region: US
+  locale: en-US
+assert:
+  type: contains_title
+  title_id: t_palm_springs
+severity: high
+schedule:
+  every_seconds: 30
